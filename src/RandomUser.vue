@@ -15,6 +15,9 @@ export default {
   methods: {
     async loadRandomUser(){
       try {
+        // const response = await fetch('https://randomuser.me/api');
+        // const body = await response.json();
+        // this.user = body.results[0];
         const response = await axios.get('https://randomuser.me/api');
         this.user = response.data.results[0];
       } catch (error) {/**/}
