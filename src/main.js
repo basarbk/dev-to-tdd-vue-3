@@ -1,4 +1,4 @@
 import { createApp } from 'vue'
-import App from './App.vue'
+import RandomUser from './RandomUser.vue'
 
-createApp(App).mount('#app')
+createApp(RandomUser).mount('#app')
